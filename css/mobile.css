@@ -1,0 +1,16 @@
+/* Smartphones */
+@media(max-width: 768px) {
+  #Wrapper{
+    display: flex;
+    flex-direction: column;
+  }
+  .ContentWrap{
+    margin-top: 3rem ;
+  }
+}
+/* @media(max-height: 568px) {
+  #Wrapper{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr)
+  }
+} */

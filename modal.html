@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+<div class="container">
+  <h2>Modal Example</h2>
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">BSF Sister's Hangout</h4>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="formContent">
+            <label for="name">Full name</label>
+            <input type="text" name="name" id="name" placeholder="Enter full name (surname first)" required>
+            </div>
+            <div class="formContent">
+            <label for="phonenumber">Phone Number</label>
+            <input type="text" name="phonenumber" id="phonenumber" placeholder="Enter Phone number" required>
+            </div>
+            <div class="formContent">
+            <label for="email">Email Address</label>
+            <input type="email" name="email" id="email" placeholder="Enter Email address" autocomplete="on" required>
+            </div>
+            <div class="formContent">
+            <label for="fellowship">Church / Fellowship</label>
+            <input type="text" name="fellowship" id="fellowship" placeholder="(E.g BSF)" required>
+            </div>
+            <div class="formContent">
+            <label for="suggestions">Suggestion(s)</label>
+            <textarea name="suggestions" id="suggestions" cols="30" rows="5" placeholder="What are your suggestions for the program?"></textarea>
+            </div>
+            <div class="formAdjust">
+            <label for="membership">Will you be attending?</label>
+            <label for="">YES</label>
+            </div>
+            <div class="formAdjust">
+            <label for="reminder">Do you want us to remind you a week to the event?</label>
+            <label for="">YES</label>
+            </div>
+            <div class="button">
+              <input type="submit" value="Remind Now">
+            </div>
+          </form>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+
+</body>
+</html>

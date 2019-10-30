@@ -1,0 +1,137 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
+  background: #000000;
+}
+#Wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#container_1{
+  background: url(../img/bewakoof\ resize.jpg) no-repeat center center/cover;
+  
+  color: #ffffff;
+}
+.ContentWrap{
+  margin-top: 6rem ;
+  justify-content: center;
+ align-content: center;
+ color: #c78601;
+}
+.logo{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.P-Content h1{
+  text-shadow:3px 3px #000;
+}
+.m-heading{
+  font-size: 1.1rem;
+  text-shadow: 1px 1px #000;
+}
+.s-heading{
+  font-size: 1rem;
+  text-shadow: 1px 1px #000;
+
+}
+.p-top{
+  padding-top: 0.5rem;
+}
+.logo img{
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+}
+.logo_align{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+}
+.logo_align h2{
+  padding-left: 5px;
+  text-shadow: 2px 2px #000;
+
+}
+.content{
+  text-align: center;
+  margin-top: 1rem;
+}
+.content h2{
+  font-style: normal;
+  color: #000000;
+  text-shadow: 2px 2px 2px rgba(178, 190, 181, 0.2);
+
+}
+.adj{
+  margin: 3.5rem 0;
+}
+.P-Content h1{
+  font-size: 3rem;
+  margin: 2rem 0;
+}
+.m-content{
+  font-style: normal;
+}
+.m-content h2{
+  padding-bottom: 1.5rem;
+}
+
+/* form */
+#container_2{
+  background: #ffffff;
+}
+.formWrap{
+  margin: 2rem;
+}
+.formWrap h1{
+  font-size: 1.3rem;
+  text-align: center;
+  padding-bottom: 1.5rem;
+}
+.formWrap form{
+  display: flex;
+  flex-direction: column;
+}
+form .formContent{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1rem;
+}
+.formContent label{
+  font-size: 14px;
+  padding-bottom: 1px;
+}
+.formContent input{
+  padding: .5rem .5rem;
+}
+.formContent ::placeholder{
+  font-style: oblique;
+  font-size: 11px;
+  color: #999;
+}
+textarea::placeholder{
+  padding: .5rem;
+}
+form .formAdjust{
+  padding-bottom: 1rem;
+}
+form .formAlign{
+  padding-top: .5rem;
+}
+.button input{
+   background: #c78601;
+   color: aliceblue;
+   border: none;
+   padding: .5rem .5rem;
+}
